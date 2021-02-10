@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+body {
+  padding-top: 5%;
+  background-color: rgb(231, 184, 63);
+  font-family: 'Nanum Pen Script', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 72px;
+  margin-bottom: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  border: solid 2px black !important;
+  margin-bottom: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type="text"]{
+  font-size: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+input::placeholder {
+  font-size: 24px;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-group-item {
+  font-size: 32px;
+  text-align: left;
+  margin-top: 1%;
+}
+
+div form button {
+font-size: 40px !important;
+}
+
+div button {
+  font-size: 25px !important;
 }
